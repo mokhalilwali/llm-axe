@@ -569,8 +569,6 @@ class OnlineAgent:
 
                     Answer the following question based on the above information: 
                     {prompt}
-
-                    Start your answer with "Based on information from the internet, "
                     '''
         
         final_responder = Agent(llm=self.llm, agent_type=AgentType.GENERIC_RESPONDER)
